@@ -3,7 +3,7 @@ Blocking methods execute synchronously and non-blocking methods execute asynchro
 # Blocking
 Blocking is when the execution of additional JavaScript in the Node.js process must wait until a non-JavaScript operation completes. This happens because the event loop is unable to continue running JavaScript while a blocking operation is occurring.
 
-[lubov](https://libuv.org/)
+[libuv](https://libuv.org/)
 
 Asynchronous I/O made simple.
 libuv is a multi-platform support library with a focus on asynchronous I/O.
